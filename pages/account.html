@@ -1,0 +1,280 @@
+﻿ <!DOCTYPE html>
+<html>
+<head>
+    <title>Аккаунты</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="../image/favicon.ico" type="image/x-icon" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../css/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="logo" ><a href="#">
+            <object type="image/svg+xml" data="../image/logoll.svg"></object></a>
+        </div>
+        <div class="line">
+
+       </div>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">
+                  <object type="image/svg+xml" data="../image/home-2.svg" class="icons"></object>
+                  <span class="menu-title">Главная</span>
+                </a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <object type="image/svg+xml" data="../image/shopping-cart.svg" class="icons"></object>
+              <span class="menu-title">Процессинг <br>платежей</span>
+              <i class="menu-arrow"></i> 
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="account.html">Аккаунты</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="payment_invoice.html">Счет на оплату</a></li>
+                <li class="nav-item"> <a class="nav-link" href="refund_of_funds.html">Возврат средств</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../cenik.html">
+              <object type="image/svg+xml" data="../image/money.svg" class="icons"></object>
+              <span class="menu-title">Ценооброзование</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+              
+                <object type="image/svg+xml" data="../image/gallery.svg" class="icons"></object>
+              
+              <span class="menu-title">Фотофиксация</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="tables">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="qualitycontrol.html">Контроль качества</a></li>
+                <li class="nav-item"> <a class="nav-link" href="violations.html">Нарушения</a></li>
+                <li class="nav-item"> <a class="nav-link" href="marriages.html">Работа с браками</a></li>
+                <li class="nav-item"> <a class="nav-link" href="postanovlenia.html">Постановление</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
+                      <object type="image/svg+xml" data="../image/chart-square.svg" class="icons"></object>
+
+              <span class="menu-title">Мониторинг</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="icons">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="system_status.html">Состояние системы</a></li>
+                <li class="nav-item"> <a class="nav-link" href="device_status.html">Состояние устройства</a></li>
+              </ul>
+            </div>
+          </li>
+             <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                      <object type="image/svg+xml" data="../image/box.svg" class="icons"></object>
+
+              <span class="menu-title">Упрваление <br>обьектами</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="auth">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="parking_areas.html">Зоны парковок</a></li>
+                <li class="nav-item"> <a class="nav-link" href="parking.html">Парковки</a></li>
+              </ul>
+            </div>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#settin" aria-expanded="false" aria-controls="auth">
+                      <object type="image/svg+xml" data="../image/setting-2.svg" class="icons"></object>
+
+              <span class="menu-title">Параметры<br> системы</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="settin">
+              <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"> <a class="nav-link" href="system.html"> Системы</a></li>
+                   <li class="nav-item"> <a class="nav-link" href="#"> Команды </a></li>
+                   <li class="nav-item"> <a class="nav-link" href="#"> Пользователи </a></li>
+                   <li class="nav-item"> <a class="nav-link" href="archival_history.html"> Архивная история </a></li>
+                   <li class="nav-item"> <a class="nav-link" href="reports.html"> Отчеты </a></li>
+                  
+              </ul>
+            </div>
+          </li>
+
+          
+        </ul>
+    </nav>
+    
+    
+    <nav class="body-the">
+        <header class="col-cl-11">
+            <div class="content">
+            <ul class="navbar-nav">
+                <li class="name-str">
+                     <h1>Аккаунты</h1>
+                </li>
+                <li class="nav-item-ind"> 
+            <a class="nav-link count-indicator" id="countDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="count">
+                 <object type="image/svg+xml" data="../image/notification.svg" class="icons-qq"></object>
+                </span>
+            </a>
+          </li>
+          <li class="nav-item-prof">
+            <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+              <span>
+                Имя Фамилия
+                </span>
+                 <object type="image/svg+xml" data="../image/Vector%20(Stroke).svg" class="icons-acc"></object>
+              </a>
+          </li>
+                </ul>
+            </div>
+            <div class="cl-2">
+                <ul class="navbar-nav">
+                    <li class="">
+                     <div class="search-box">
+                        <i class="uil-search">
+                            <img src="../image/search-normal.svg" class="icons-acc">
+                         </i>
+                        <input type="text" placeholder="Общий поиск...">
+                    </div>
+                    </li>
+                    <li class=""> 
+                        <div class="select-cq">
+                        <select name="user_profile_color_2" required="required">
+                          <option value="">Тип аккаунта</option>
+                            <option value="1" class="text">Администратор</option>
+                            <option value="2" class="text">Инженер</option>
+                            <option value="3" class="text">Бухгалтер</option>
+                            <option value="4" class="text">Программист</option>
+                        </select>
+                    </div>
+                    </li>  
+                    <li class="date"> 
+                        <div id="reportrange">
+                            <span></span> <i>  <img src="../image/calendar.svg" class="callendar">            </i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="concert" id="paginated-list" data-current-page="1" aria-live="polite">
+                <table id="tableData" class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                        <th>ФИО<object type="image/svg+xml" data="../image/arrow-swap.svg" class="objekt-table"></object></th>
+                        <th>ГОС Номера<object type="image/svg+xml" data="../image/arrow-swap.svg" class="objekt-table"></object></th>
+                        <th>Номера техпаспорта<object type="image/svg+xml" data="../image/arrow-swap.svg" class="objekt-table"></object></th>
+                        <th>Номер телефона<object type="image/svg+xml" data="../image/arrow-swap.svg" class="objekt-table"></object></th>
+                        <th>Баланс<object type="image/svg+xml" data="../image/arrow-swap.svg" class="objekt-table"></object></th>
+                        <th>Дата рег.<object type="image/svg+xml" data="../image/arrow-swap.svg" class="objekt-table"></object></th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>Мехрубон Азиз</td>
+                        <td>0074AA01</td>
+                        <td>0074AA01</td>
+                        <td>(808) 555-0111</td>
+                        <td class="money">$473.10</td>
+                        <td>5/19/12</td>
+                    </tr>
+                    <tr>
+                        <td>Комроншо Саид</td>
+                        <td>058GG01</td>
+                        <td>058GG01</td>
+                        <td>(808) 535-2334</td>
+                        <td class="money">$320.85</td>
+                        <td>5/19/12</td>
+                    </tr>
+                    <tr>
+                        <td>Назарбаем Ехтиром</td>
+                        <td>1010WW01</td>
+                        <td>1010WW01</td>
+                        <td>(808) 523-3322</td>
+                        <td class="money">$741.25</td>
+                        <td>5/19/12</td>
+                    </tr>
+                    <tr>
+                        <td>Довлатов Комрон</td>
+                        <td>2211QQ01</td>
+                        <td>2211QQ01</td>
+                        <td>(808) 123-1010</td>
+                        <td class="money">$533.15</td>
+                        <td>5/19/12</td>
+                    </tr>
+                    <tr>
+                        <td>Устоев Камол</td>
+                        <td>0102DD03</td>
+                        <td>0102DD03</td>
+                        <td>(808) 234-0122</td>
+                        <td class="money">$243.82</td>
+                        <td>5/19/12</td>
+                    </tr>
+                    <tr>
+                        <td>Устоев Камол</td>
+                        <td>0102DD03</td>
+                        <td>0102DD03</td>
+                        <td>(808) 234-0122</td>
+                        <td class="money">$243.82</td>
+                        <td>5/19/12</td>
+                    </tr>
+                    <tr>
+                        <td>Устоев Камол</td>
+                        <td>0102DD03</td>
+                        <td>0102DD03</td>
+                        <td>(808) 234-0122</td>
+                        <td class="money">$243.82</td>
+                        <td>5/19/12</td>
+                    </tr>
+                    <tr>
+                        <td>Устоев Камол</td>
+                        <td>0102DD03</td>
+                        <td>0102DD03</td>
+                        <td>(808) 234-0122</td>
+                        <td class="money">$243.82</td>
+                        <td>5/19/12</td>
+                    </tr>
+                    <tr>
+                        <td>Устоев Камол</td>
+                        <td>0102DD03</td>
+                        <td>0102DD03</td>
+                        <td>(808) 234-0122</td>
+                        <td class="money">$243.82</td>
+                        <td>5/19/12</td>
+                    </tr>
+                    
+                    
+                </table>
+            </div>
+        </header>
+    </nav>
+   
+      <!-- plugins:js -->
+    <script type="text/javascript" src="../js/vendor.bundle.base.js"></script>
+    <script type="text/javascript" src="../js/calendar2.js"></script>
+    <script type="text/javascript" src="../js/calendar.js"></script>
+    <script type="text/javascript" src="../js/paginations2.js"></script>
+    <!--Динамические влкдаки-->
+    <script type="text/javascript" src="../js/pill.js"></script>
+    <!--Регулировка яркости и контрастности-->
+    <script type="text/javascript" src="../js/contrast.js"></script>
+    <!--Пагинация таблиц-->
+    <script type="text/javascript" src="../js/paging.js"></script> 
+    <script src="../js/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+            $(document).ready(function() {
+                $('#tableData').paging({limit:7});
+            });
+    
+        </script>
+</body>
+</html>

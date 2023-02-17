@@ -1,0 +1,292 @@
+﻿ <!DOCTYPE html>
+<html>
+<head>
+    <title>Главная</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+
+    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="logo" ><a href="#">
+            <object type="image/svg+xml" data="image/logoll.svg"></object></a>
+        </div>
+        <div class="line">
+
+       </div>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                  <object type="image/svg+xml" data="image/home-2.svg" class="icons"></object>
+                  <span class="menu-title">Главная</span>
+                </a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <object type="image/svg+xml" data="image/shopping-cart.svg" class="icons"></object>
+              <span class="menu-title">Процессинг <br>платежей</span>
+              <i class="menu-arrow"></i> 
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="pages/account.html">Аккаунты</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="pages/payment_invoice.html">Счет на оплату</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/refund_of_funds.html">Возврат средств</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cenik.html">
+              <object type="image/svg+xml" data="image/money.svg" class="icons"></object>
+              <span class="menu-title">Ценооброзование</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+              
+                <object type="image/svg+xml" data="image/gallery.svg" class="icons"></object>
+              
+              <span class="menu-title">Фотофиксация</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="tables">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="pages/qualitycontrol.html">Контроль качества</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/violations.html">Нарушения</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/marriages.html">Работа с браками</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/postanovlenia.html">Постановление</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
+                      <object type="image/svg+xml" data="image/chart-square.svg" class="icons"></object>
+
+              <span class="menu-title">Мониторинг</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="icons">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="pages/system_status.html">Состояние системы</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/device_status.html">Состояние устройства</a></li>
+              </ul>
+            </div>
+          </li>
+             <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                      <object type="image/svg+xml" data="image/box.svg" class="icons"></object>
+
+              <span class="menu-title">Упрваление <br>обьектами</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="auth">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="pages/parking_areas.html">Зоны парковок</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/parking.html">Парковки</a></li>
+              </ul>
+            </div>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#settin" aria-expanded="false" aria-controls="auth">
+                      <object type="image/svg+xml" data="image/setting-2.svg" class="icons"></object>
+
+              <span class="menu-title">Параметры<br> системы</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="settin">
+              <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"> <a class="nav-link" href="pages/system.html"> Системы</a></li>
+                   <li class="nav-item"> <a class="nav-link" href="#"> Команды </a></li>
+                   <li class="nav-item"> <a class="nav-link" href="#"> Пользователи </a></li>
+                   <li class="nav-item"> <a class="nav-link" href="pages/archival_history.html"> Архивная история </a></li>
+                   <li class="nav-item"> <a class="nav-link" href="pages/reports.html"> Отчеты </a></li>
+                  
+              </ul>
+            </div>
+          </li>
+
+          
+        </ul>
+    </nav>
+    
+    
+    <nav class="body-the">
+        <header class="col-cl-11">
+            <div class="content">
+            <ul class="navbar-nav">
+                <li class="name-str">
+                     <h1>Главная</h1>
+                </li>
+                <li class="nav-item-ind"> 
+            <a class="nav-link count-indicator" id="countDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="count">
+                 <object type="image/svg+xml" data="image/notification.svg" class="icons-qq"></object>
+                </span>
+            </a>
+          </li>
+          <li class="nav-item-prof">
+            <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+              <span>
+                Имя Фамилия
+                </span>
+                 <object type="image/svg+xml" data="image/Vector%20(Stroke).svg" class="icons-acc"></object>
+              </a>
+          </li>
+                </ul>
+            </div>
+            <div class="cl-3">
+                <ul class="navbar-nav-set">
+                    <li>
+                        <button type="button" class="Settings-cl">Настроить</button>
+                    </li>
+                </ul>
+            </div>
+            <!--Body-->
+            <div class="cl-os">
+                <div class="sat-1">
+                    <div class="text-head">
+                        <object type="image/svg+xml" data="image/message-question.svg" class=""></object>
+                        <h5>Оплата по источникам</h5>
+                        <object type="image/svg+xml" data="image/chart.svg" class=""></object>
+                    </div>
+                    <div class="canvas">
+                        <canvas id=""></canvas>
+                    </div>
+                    <div class="lin"></div>
+                    <div class="text-foot">
+                        Итог:
+                    </div>
+                </div>
+               <div class="sat-1">
+                    <div class="text-head">
+                        <object type="image/svg+xml" data="image/message-question.svg" class=""></object>
+                        <h5>Статистика нарушений</h5>
+                        <object type="image/svg+xml" data="image/chart.svg" class=""></object>
+                    </div>
+                    <div class="canvas">
+                        <canvas id=""></canvas>
+                    </div>
+                    <div class="lin"></div>
+                    <div class="text-foot">
+                        Итог:
+                    </div>
+                </div>
+                <div class="sat-1">
+                    <div class="text-head">
+                        <object type="image/svg+xml" data="image/message-question.svg" class=""></object>
+                        <h5>Абоненты</h5>
+                        <object type="image/svg+xml" data="image/chart.svg" class=""></object>
+                    </div>
+                    <div class="canvas">
+                        <canvas id=""></canvas>
+                    </div>
+                    <div class="lin"></div>
+                    <div class="text-foot">
+                        Итог:
+                    </div>
+                </div>
+                <div class="sat-1">
+                    <div class="text-head">
+                        <object type="image/svg+xml" data="image/message-question.svg" class=""></object>
+                        <h5>Аккаунты</h5>
+                        <object type="image/svg+xml" data="image/chart.svg" class=""></object>
+                    </div>
+                    <div class="canvas">
+                        <canvas id=""></canvas>
+                    </div>
+                    <div class="lin"></div>
+                    <div class="text-foot">
+                        Итог:
+                    </div>
+                </div>
+                <div class="sat-1">
+                    <div class="text-head">
+                        <object type="image/svg+xml" data="image/message-question.svg" class=""></object>
+                        <h5>Мониторинг</h5>
+                        <object type="image/svg+xml" data="image/chart.svg" class=""></object>
+                    </div>
+                    <div class="canvas">
+                        <canvas id=""></canvas>
+                    </div>
+                    <div class="lin"></div>
+                    <div class="text-foot">
+                        Итог:
+                    </div>
+                </div>
+                <div class="sat-1">
+                    <div class="text-head">
+                        <object type="image/svg+xml" data="image/message-question.svg" class=""></object>
+                        <h5>Сессия</h5>
+                        <object type="image/svg+xml" data="image/chart.svg" class=""></object>
+                    </div>
+                    <div class="canvas">
+                        <canvas id=""></canvas>
+                    </div>
+                    <div class="lin"></div>
+                    <div class="text-foot">
+                        Итог:
+                    </div>
+                </div>
+                <div class="sat-1">
+                    <div class="text-head">
+                        <object type="image/svg+xml" data="image/message-question.svg" class=""></object>
+                        <h5>Статистика нарушений</h5>
+                        <object type="image/svg+xml" data="image/chart.svg" class=""></object>
+                    </div>
+                    <div class="canvas">
+                        <canvas id=""></canvas>
+                    </div>
+                    <div class="lin"></div>
+                    <div class="text-foot">
+                        Итог:
+                    </div>
+                </div>
+                <div class="sat-1">
+                    <div class="text-head">
+                        <object type="image/svg+xml" data="image/message-question.svg" class=""></object>
+                        <h5>Статистика нарушений</h5>
+                        <object type="image/svg+xml" data="image/chart.svg" class=""></object>
+                    </div>
+                    <div class="canvas">
+                        <canvas id=""></canvas>
+                    </div>
+                    <div class="lin"></div>
+                    <div class="text-foot">
+                        Итог:
+                    </div>
+                </div>
+                <div class="sat-1">
+                    <div class="text-head">
+                        <object type="image/svg+xml" data="image/message-question.svg" class=""></object>
+                        <h5>Статистика нарушений</h5>
+                        <object type="image/svg+xml" data="image/chart.svg" class=""></object>
+                    </div>
+                    <div class="canvas">
+                        <canvas id=""></canvas>
+                    </div>
+                    <div class="lin"></div>
+                    <div class="text-foot">
+                        Итог:
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+        </header>
+    </nav>
+   
+      <!-- plugins:js -->
+    <script type="text/javascript" src="js/vendor.bundle.base.js"></script>
+    <script type="text/javascript" src="js/calendar2.js"></script>
+    <script type="text/javascript" src="js/calendar.js"></script>
+    
+</body>
+</html>

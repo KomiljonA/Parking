@@ -1,0 +1,318 @@
+﻿ <!DOCTYPE html>
+<html>
+<head>
+    <title>Работа с браками</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="../image/favicon.ico" type="image/x-icon" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../css/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+
+    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="logo" ><a href="#">
+            <object type="image/svg+xml" data="../image/logoll.svg"></object></a>
+        </div>
+        <div class="line">
+
+       </div>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">
+                  <object type="image/svg+xml" data="../image/home-2.svg" class="icons"></object>
+                  <span class="menu-title">Главная</span>
+                </a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <object type="image/svg+xml" data="../image/shopping-cart.svg" class="icons"></object>
+              <span class="menu-title">Процессинг <br>платежей</span>
+              <i class="menu-arrow"></i> 
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="account.html">Аккаунты</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="payment_invoice.html">Счет на оплату</a></li>
+                <li class="nav-item"> <a class="nav-link" href="refund_of_funds.html">Возврат средств</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../cenik.html">
+              <object type="image/svg+xml" data="../image/money.svg" class="icons"></object>
+              <span class="menu-title">Ценооброзование</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+              
+                <object type="image/svg+xml" data="../image/gallery.svg" class="icons"></object>
+              
+              <span class="menu-title">Фотофиксация</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="tables">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="qualitycontrol.html">Контроль качества</a></li>
+                <li class="nav-item"> <a class="nav-link" href="violations.html">Нарушения</a></li>
+                <li class="nav-item"> <a class="nav-link" href="marriages.html">Работа с браками</a></li>
+                <li class="nav-item"> <a class="nav-link" href="postanovlenia.html">Постановление</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
+                      <object type="image/svg+xml" data="../image/chart-square.svg" class="icons"></object>
+
+              <span class="menu-title">Мониторинг</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="icons">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="system_status.html">Состояние системы</a></li>
+                <li class="nav-item"> <a class="nav-link" href="device_status.html">Состояние устройства</a></li>
+              </ul>
+            </div>
+          </li>
+             <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                      <object type="image/svg+xml" data="../image/box.svg" class="icons"></object>
+
+              <span class="menu-title">Упрваление <br>обьектами</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="auth">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="parking_areas.html">Зоны парковок</a></li>
+                <li class="nav-item"> <a class="nav-link" href="parking.html">Парковки</a></li>
+              </ul>
+            </div>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#settin" aria-expanded="false" aria-controls="auth">
+                      <object type="image/svg+xml" data="../image/setting-2.svg" class="icons"></object>
+
+              <span class="menu-title">Параметры<br> системы</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="settin">
+              <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"> <a class="nav-link" href="system.html"> Системы</a></li>
+                   <li class="nav-item"> <a class="nav-link" href="#"> Команды </a></li>
+                   <li class="nav-item"> <a class="nav-link" href="#"> Пользователи </a></li>
+                   <li class="nav-item"> <a class="nav-link" href="archival_history.html"> Архивная история </a></li>
+                   <li class="nav-item"> <a class="nav-link" href="reports.html"> Отчеты </a></li>
+                  
+              </ul>
+            </div>
+          </li>
+
+          
+        </ul>
+    </nav>
+    
+    
+    <nav class="body-the">
+        <header class="col-cl-11">
+            <div class="content">
+            <ul class="navbar-nav">
+                <li class="name-str">
+                     <h1>Работа с браками</h1>
+                </li>
+                <li class="nav-item-ind"> 
+            <a class="nav-link count-indicator" id="countDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="count">
+                 <object type="image/svg+xml" data="../image/notification.svg" class="icons-qq"></object>
+                </span>
+            </a>
+          </li>
+          <li class="nav-item-prof">
+            <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+              <span>
+                Имя Фамилия
+                </span>
+                 <object type="image/svg+xml" data="../image/Vector%20(Stroke).svg" class="icons-acc"></object>
+              </a>
+          </li>
+                </ul>
+            </div>
+            <div class="pagescontrol">
+                 <!--1-я вкладка-->
+                
+                <div class="main_content hidden" id="tab-1">
+                    <div class="foot">
+                        <div class="light">
+                            <div class="lig">
+                                <object type="image/svg+xml" data="../image/sun.svg" class="iconlig"></object>
+                            </div>
+                            
+                            <div class="obol">
+                            <h4 class="ligh">Яркость</h4>
+                           <input data-slider="brightness" class="slider-input" type="range" min="0" max="200" value="100">
+                            </div>
+                        </div>
+                        <div class="contrast">
+                            <div class="lig">
+                                <object type="image/svg+xml" data="../image/moon.svg" class="iconlig"></object>
+                            </div>
+                            
+                            <div class="obol">
+                            <h4 class="ligh">Контрастность</h4>
+                            <input data-slider="contrast" class="slider-input" type="range" min="0" max="200" value="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="picture-control">
+                        <img class="img" src="../images/picture%201.png" >
+                    </div>
+                    <div class="car-num">
+                        <div class="photo-num">
+                            <img class="img" src="../images/carnum.png">
+                        </div>
+                        <div class="input-num">
+                            <h1>C946KH797</h1>
+                        </div>
+                    </div>
+                    <div class="butcon">
+                        <button class="but11">Заблокировать (+)</button>
+                        <button class="but22">Подтвердить (Пробел)</button>
+                   
+                    </div>
+                    <div class="map">
+                        <iframe class="google-cart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.5601608180373!2d68.79030915524521!3d38.5669464981169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b5d1f61a94146b%3A0x969cc125ced92a48!2z0JHQsNC90Log0K3RgdGF0LDRgtCw!5e0!3m2!1sru!2s!4v1674110137140!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="" referrerpolicy=""></iframe>
+                    </div>
+                </div>
+                
+                
+                <!--2-я вкладка-->
+                <div class="main_content hidden" id="tab-2">
+                    <div class="foot">
+                        <div class="light">
+                            <div class="lig">
+                                <object type="image/svg+xml" data="../image/sun.svg" class="iconlig"></object>
+                            </div>
+                            
+                            <div class="obol">
+                            <h4 class="ligh">Яркость</h4>
+                            <input data-slider="brightness" class="slider-input" type="range" min="0" max="200" value="100">
+                            </div>
+                        </div>
+                        <div class="contrast">
+                            <div class="lig">
+                                <object type="image/svg+xml" data="../image/moon.svg" class="iconlig"></object>
+                            </div>
+                            
+                            <div class="obol">
+                            <h4 class="ligh">Контрастность</h4>
+                            <input data-slider="contrast" class="slider-input" type="range" min="0" max="200" value="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="picture-control">
+                        <img class="img" src="../images/12.jpg">
+                    </div>
+                    <div class="car-num">
+                        <div class="photo-num">
+                            <img class="" src="../images/carnum.png">
+                        </div>
+                        <div class="input-num">
+                            <h1>C946KH797</h1>
+                        </div>
+                    </div>
+                    <div class="butcon">
+                        <button class="but11">Заблокировать (+)</button>
+                        <button class="but22">Подтвердить (Пробел)</button>
+                   
+                    </div>
+                    <div class="map">
+                        <iframe class="google-cart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12480.761639781387!2d68.75797569391274!3d38.552426584192624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b5d175790891a3%3A0xe095cead18ce26af!2z0KbQuNGA0Lo!5e0!3m2!1sru!2s!4v1674471272181!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="" referrerpolicy=""></iframe>
+                    </div>
+                </div>
+               
+                
+                <!--ПРАВЙ БАР-->
+                <div class="secondp">
+                    <div class="kolnr">
+                        <h5 class="nartt">Количество нарушений</h5>
+                        <a class="nartext">1 400</a>
+                    </div>
+                    <div class="datecl">
+                        <div id="reportrange">
+                            <span></span> <i>  <img src="../image/calendar.svg" class="callendar">            </i>
+                        </div>
+                    </div>
+                    
+                    <div class="select11">
+                        <select name="user_profile_color_2" required="required">
+                          <option value="">Вид брака</option>
+                            <option value="1" class="text">Вид 1</option>
+                            <option value="2" class="text">Вид 2</option>
+                            <option value="3" class="text">Вид 3</option>
+                            <option value="4" class="text">Вид 4</option>
+                        </select>
+                    </div>
+                    
+                    
+
+  
+                <ul id="paginated-list" data-current-page="1" aria-live="polite" class="paginat">
+                      <div class="zagol"><h2>Дата нарушения</h2></div>
+
+                    <li class="header_item" data-tab="tab-1"><a href="#">
+                        <div class="namedd">
+                            <h6 class="title1">1</h6>
+                            <div class="iconqw">
+                                <object type="image/svg+xml" data="../image/tabler_parking-off.svg" class="nopar"></object>
+                            </div>
+                            <div class="textdd">
+                                <h6 class="testt">01/01/2023, 04:43:41</h6>
+                                <h6 class="textb">Неправильная парковка</h6>
+                            </div>
+                        </div>
+                    </a></li>
+                    <li class="header_item" data-tab="tab-2"><a href="#">
+                        <div class="namedd">
+                            <h6 class="title1">2</h6>
+                            <div class="iconqw">
+                                <object type="image/svg+xml" data="../image/tabler_parking-off.svg" class="nopar"></object>
+                            </div>
+                            <div class="textdd">
+                                <h6 class="testt">04/01/2023, 14:23:11</h6>
+                                <h6 class="textb">Неправильная парковка</h6>
+                            </div>
+                        </div>
+                      </a></li>
+                  </ul>
+
+                  <nav class="pagination-container">
+                    <button class="pagination-button" id="prev-button" aria-label="Previous page" title="Previous page">
+                      &lt;
+                    </button>
+
+                    <div id="pagination-numbers"></div>
+
+                    <button class="pagination-button" id="next-button" aria-label="Next page" title="Next page">
+                      &gt;
+                    </button>
+                  </nav>
+
+                </div>
+            </div>
+        </header>
+    </nav>
+   
+           <!-- plugins:js -->
+    <script type="text/javascript" src="../js/vendor.bundle.base.js"></script>
+    <script type="text/javascript" src="../js/calendar2.js"></script>
+    <script type="text/javascript" src="../js/calendar.js"></script>
+    <script type="text/javascript" src="../js/paginations2.js"></script>
+    <!--Динамические влкдаки-->
+    <script type="text/javascript" src="../js/pill.js"></script>
+    <!--Регулировка яркости и контрастности-->
+    <script type="text/javascript" src="../js/contrast.js"></script>
+</body>
+</html>
